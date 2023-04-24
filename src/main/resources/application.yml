@@ -1,0 +1,12 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: SentinelDemo
+
+  cloud:
+    sentinel:
+      transport:
+        # 指定控制台的ip和端口
+        dashboard: localhost:8080
